@@ -4,7 +4,7 @@
 ## Instructions
 
 ### Add files to your project
-Add the `Dockerfile` and `docker-compose.yml`files to your project. If you don't have a project, add these files to an empty directory. 
+Add the `Dockerfile` and `docker-compose.yml` files to your project. If you don't have a project, add these files to an empty directory. 
 
 ### Run the build command
 Run: 
