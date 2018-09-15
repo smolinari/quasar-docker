@@ -40,7 +40,7 @@ Now enter
 
 `quasar dev`
 
-You should now see the normal CLI output to get the dev server running.
+You should now see the normal CLI output to get the dev server running. The automatic opening of the browser won't work, so go to http://localhost:8080 in your favorite browser. 
 
 ### Initializing a new project
 If you don't have a project already built, you can also do `quasar init <your_project_folder_name>` and start a new project.
