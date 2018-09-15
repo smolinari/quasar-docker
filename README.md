@@ -42,12 +42,12 @@ Now enter
 
 You should now see the normal CLI output to get the dev server running.
 
+### Initializing a new project
+If you don't have a project already built, you can also do `quasar init <your_project_folder_name>` and start a new project.
+
 ## Some caveats.
  - The webpack hotreload is now running only with polling.
  - The automatic opening of the browser won't work. You have to enter the dev server URL http://localhost:8080.
-
-### Initializing a new project
-If you don't have a project already built, you can also do `quasar init <your_project_folder_name>` and start a new project.
 
 ### That's it!
 Basically, this method of gaining shell access to the container means all Quasar CLI commands will (should) work.
