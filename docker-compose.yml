@@ -1,0 +1,14 @@
+version: '3'
+services:
+  frontend:
+    build: .
+    ports: 
+      - "8080:8080"
+    volumes: 
+      - .:/home/node/app:rw
+    restart: "no"
+    command: sh
+    stdin_open: true
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
