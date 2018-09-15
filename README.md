@@ -25,14 +25,14 @@ Now to get into the container via the shell:
 
 `docker exec -ti <name_of_your_container> sh`
 
-Replace <name_of_your_container> with the name of your running container. 
+Replace `<name_of_your_container>` with the name of your running container. 
 If you don't know the name of your container, run 
 
 `docker-compose ps`
 
 ### Run the Quasar dev server
 
-NOTE: if you didn't have a project already started, skip to [Initialize a project](#initializing-a-new-project) step. 
+NOTE: if you didn't have a Quasar project already started, skip to the [Initializing a new project](#initializing-a-new-project) step. 
 
 If you added the files to your project, once you've ran the `exec` command, you should be in `/home/node/app`
 
