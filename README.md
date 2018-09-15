@@ -32,7 +32,7 @@ If you don't know the name of your container, run
 
 ### Run the Quasar dev server
 
-NOTE: if you didn't have a project already started, skip to [Initialize a project]() step. 
+NOTE: if you didn't have a project already started, skip to [Initialize a project](#initializing-a-new-project) step. 
 
 If you added the files to your project, once you've ran the `exec` command, you should be in `/home/node/app`
 
