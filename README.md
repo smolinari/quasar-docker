@@ -3,21 +3,25 @@
 
 ## Instructions
 
-1. Add the `Dockerfile` and `docker-compose.yml`files to your project. 
+### Add files to your project
+Add the `Dockerfile` and `docker-compose.yml`files to your project. 
 
-2. Now run 
+### Run the build command
+Now run: 
 
 `docker-compose build`
 
 This will build the container from the latest node alpine container image and set up the docker environment. 
 
-3. Once the build has finished, run 
+### Run the container
+Once the build has finished, run 
 
 `docker-compose up -d`. 
 
 This runs the container in detached mode.
 
-4. Now to get into the container via the shell: 
+### Enter the container via the shell entry
+Now to get into the container via the shell: 
 
 `docker exec -ti <name_of_your_container> sh`
 
@@ -26,9 +30,10 @@ If you don't know the name of your container, run
 
 `docker-compose ps`
 
+### Run the Quasar dev server
 Once you've ran the `exec` command, you should be in `/home/node/app`
 
-5. Now enter 
+Now enter 
 
 `quasar dev`
 
