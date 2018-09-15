@@ -42,4 +42,4 @@ If you don't have a project already built, you can also do `quasar init <your_pr
 
 Basically, this method of gaining shell access to the container means all Quasar CLI commands will (should) work.
 
-This is currently alpha, so don't expect too much!
+This is currently alpha, so don't expect too much! Any testing greatly appreciated. :smile:
