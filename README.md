@@ -46,7 +46,7 @@ You should now see the normal CLI output to get the dev server running. The auto
 If you don't have a project already built, you can also do `quasar init <your_project_folder_name>` and start a new project.
 
 ## Some caveats.
- - The webpack hotreload is now running only with polling.
+ - The webpack hot reload is now running only with polling.
  - The automatic opening of the browser won't work. You have to enter the dev server URL http://localhost:8080.
 
 ### That's it!
