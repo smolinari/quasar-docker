@@ -43,7 +43,9 @@ Now enter
 You should now see the normal CLI output to get the dev server running. The automatic opening of the browser won't work, so go to http://localhost:8080 in your favorite browser. 
 
 ### Initializing a new project
-If you don't have a project already built, you can also do `quasar init <your_project_folder_name>` and start a new project.
+If you don't have a project already built, you can also do `quasar create <your_project_folder_name> -b dev` and start a new project.
+
+Note: the `-b dev` option will only be needed, while version 1 of Quasar is in beta status.
 
 ## Some caveats.
  - The webpack hot reload is now running only with polling.
